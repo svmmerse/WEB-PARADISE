@@ -8,14 +8,19 @@ body{
     font-style: bold ;
     color : white;
     font-family: sans-serif;
+    position: relative;
+    top: 300px;
+    bottom: 100px;
+    right: 500px;
     text-align: center;
+    font-size: xx-large;
     height: 100;
     text-shadow: 2px 2px 4px #000000;
 }
 
 .barSamping{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    inline-size: 10px;
+    font-family : Cambria ;
+    display: inline-block;
     color: white;
 
 }
