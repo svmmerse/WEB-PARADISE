@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body{
     background-image: url("../background.png");
     background-size: 100%;
@@ -100,3 +101,111 @@ ul li a:hover{
 .tren{cursor: pointer;}
 
 
+=======
+body{
+    background-image: url("../background.png");
+    background-size: 100%;
+}
+
+.block {
+    background-color: rgba(0, 0, 0, 0.500) ;
+    background-size: 100%;
+    padding : 50px;
+    position: relative;
+    top: 100px;
+}
+.beranda{color: #e59226;}
+.block h1{
+    color: white;
+    font-size: 65px;
+    font-family: 'Lucida Sans' ;
+    font-weight: lighter;
+    position: relative;
+    margin-left :20px;
+    margin-bottom: 0%;
+    padding-left: 0%;
+    
+}
+
+.block p{
+    color: white;
+    font-size: 20px;
+    font-family: 'PT Sans';
+    position: relative;
+    margin-left : 20px;
+    padding-left: 10px;
+    margin-right: 400px;
+}
+
+.block form input{
+    box-sizing : border-box;
+    position: relative;
+    left:30px;
+    text-align: center;
+    background-color: #e59226 ;
+    border-radius: 20px;
+    border-style: inset;
+    width: 20%;
+    padding: 8px 10px;
+    margin-bottom: 15px;
+    color: white;
+    font-size: 25px;
+}
+
+
+.bar{
+    position: relative;
+    background-color: #070707;
+}
+
+
+nav.img.mentok {
+    float: left;
+    margin: 3px;
+
+}
+.mentok{
+    margin-left: 50px;
+    border-radius: 50%;
+}
+ul li .beda{
+    display: block;
+    font-family: "Vivaldi";
+    color: #FFF;
+    text-decoration: none;
+    padding: 0px 0px;
+    position: relative;
+    right: 600px; 
+    font-size: 20px;   
+}
+
+ul {
+    float: right;
+    list-style: none;
+    font-size: 20px;
+}
+
+
+ul li {
+    text-align: center;
+    float: left;
+}
+
+
+ul li a{
+    display: block;
+    color: #FFF;
+    text-decoration: none;
+    padding: 0px 30px;
+    position: relative; 
+}
+
+
+ul li a:hover{
+    background-color: #e59226;
+    color: #070707;
+}
+
+.jel{cursor:pointer;}
+.tren{cursor: pointer;}
+>>>>>>> 19ba42474701c8e3e257123d6829ddc4e3986f48

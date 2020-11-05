@@ -57,9 +57,16 @@ body{
 
 nav.img.mentok {
     float: left;
-    margin: 3px;
+    margin: 3px;  
 }
 
+<<<<<<< HEAD
+=======
+.mentok{
+    margin-left: 50px;
+    border-radius: 50%;
+}
+>>>>>>> 19ba42474701c8e3e257123d6829ddc4e3986f48
 ul li .beda{
     display: block;
     font-family: "Vivaldi";
@@ -68,7 +75,15 @@ ul li .beda{
     padding: 0px 0px;
     position: relative;
     right: 600px; 
+<<<<<<< HEAD
     font-size: 25px;   
+=======
+    font-size: 20px;   
+}
+
+ul li .sejarah {
+    color: #e59226;
+>>>>>>> 19ba42474701c8e3e257123d6829ddc4e3986f48
 }
 
 ul {
@@ -91,7 +106,11 @@ ul li a{
     position: relative; 
 }
 
+<<<<<<< HEAD
 ul li a:hover{
+=======
+ul li a:hover {
+>>>>>>> 19ba42474701c8e3e257123d6829ddc4e3986f48
     background-color: #e59226;
     color: #070707;
 }
