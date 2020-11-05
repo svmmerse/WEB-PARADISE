@@ -4,18 +4,17 @@ body{
 }
 
 .block {
-    background-color: rgba(0, 0, 0, 0.288) ;
+    background-color: rgba(0, 0, 0, 0.500) ;
     background-size: 100%;
-    margin : 5px;
     padding : 50px;
     position: relative;
-    top: 90px;
+    top: 100px;
 }
-
+.beranda{color: #e59226;}
 .block h1{
     color: white;
     font-size: 65px;
-    font-family: Cambria ;
+    font-family: 'Lucida Sans' ;
     font-weight: lighter;
     position: relative;
     margin-left :20px;
@@ -27,7 +26,7 @@ body{
 .block p{
     color: white;
     font-size: 20px;
-    font-family: sans-serif;
+    font-family: 'PT Sans';
     position: relative;
     margin-left : 20px;
     padding-left: 10px;
@@ -59,11 +58,15 @@ body{
 nav.img.mentok {
     float: left;
     margin: 3px;
-}
 
+}
+.mentok{
+    margin-left: 50px;
+    border-radius: 50%;
+}
 ul li .beda{
     display: block;
-    font-family: "Lucida Sans";
+    font-family: "Vivaldi";
     color: #FFF;
     text-decoration: none;
     padding: 0px 0px;
@@ -95,7 +98,9 @@ ul li a{
 
 
 ul li a:hover{
-    background-color: blue;
+    background-color: #e59226;
     color: #070707;
 }
 
+.jel{cursor:pointer;}
+.tren{cursor: pointer;}
