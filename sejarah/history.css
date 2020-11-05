@@ -10,21 +10,25 @@ body {
 
 nav.img.mentok {
     float: left;
-    margin: 3px;
+    margin: 3px;  
 }
 
-ul li .beda {
+.mentok{
+    margin-left: 50px;
+    border-radius: 50%;
+}
+ul li .beda{
     display: block;
-    font-family: "Lucida Sans";
+    font-family: "Vivaldi";
     color: #FFF;
     text-decoration: none;
     padding: 0px 0px;
     position: relative;
-    right: 600px;
-    font-size: 20px;
+    right: 600px; 
+    font-size: 20px;   
 }
 
-ul li .sejar {
+ul li .sejarah {
     color: #e59226;
 }
 
@@ -48,7 +52,7 @@ ul li a {
 }
 
 ul li a:hover {
-    background-color: blue;
+    background-color: #e59226;
     color: #070707;
 }
 
