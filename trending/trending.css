@@ -1,0 +1,63 @@
+body {
+    background: url(../img/trendingbg.png);
+}
+
+.navbar {
+    background-color: black;
+    width: 100%;
+    height: 11%;
+}
+
+.logo {
+    border-radius: 50%;
+    margin-left: 50px;
+}
+
+.tulisan {
+    position: relative;
+    top: -30px;
+    font-family: "Vivaldi";
+    color: white;
+    font-size: 20px;
+    border: none;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.trending{color: #E59226;
+border-bottom: #E59226;
+position: relative;
+top: -20px;
+right: -700px;
+font-size: 40px;}
+
+h1{color: #E59226 ;
+    font-size: 60px;
+}
+
+p{width: 500px;
+height: 200px;
+color: white;
+margin-top: -35px;
+}
+
+.gambar1,.gambar2{border-radius: 30px;
+position: relative;
+top: -90px;}
+
+.kiri{position: relative;
+    right: 400px;
+height: 0px;}
+
+.kanan{position: relative;
+    right: -175px;
+height: 0px;
+width: 0px;}
+
+.isi{position: relative; }
+
+.satu,.dua{height: 0px;}
+.dua{position: relative;
+    top: 600px;
+height: 0px;}
+
