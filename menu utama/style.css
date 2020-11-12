@@ -1,80 +1,31 @@
-body{
+body {
     background-image: url("../background.png");
     background-size: 100%;
 }
 
-.block {
-    background-color: rgba(0, 0, 0, 0.500) ;
-    background-size: 100%;
-    padding : 50px;
-    position: relative;
-    top: 100px;
-}
-
-.beranda{color: #e59226;}
-
-.block h1{
-    color: white;
-    font-size: 65px;
-    font-family: 'Lucida Sans';
-    font-weight: lighter;
-    position: relative;
-    margin-left :20px;
-    margin-bottom: 0%;
-    padding-left: 0%;
-    
-}
-
-.block p{
-    color: white;
-    font-size: 20px;
-    font-family: 'PT Sans';
-    position: relative;
-    margin-left : 20px;
-    padding-left: 10px;
-    margin-right: 400px;
-}
-
-.block form input{
-    box-sizing : border-box;
-    position: relative;
-    left:30px;
-    text-align: center;
-    background-color: #e59226 ;
-    border-radius: 20px;
-    border-style: inset;
-    width: 20%;
-    padding: 8px 10px;
-    margin-bottom: 15px;
-    color: white;
-    font-size: 25px;
-}
-
-.bar{
-    position: relative;
+.bar {
+    position: absolute;
     background-color: #070707;
+    width: 99%;
+    height: 12%;
+    top: 0px;
 }
 
-nav.img.mentok {
-    float: left;
-    margin: 3px;
-}
-
-ul li .beda{
-    display: block;
-    font-family: "Vivaldi";
-    color: #FFF;
-    text-decoration: none;
-    padding: 0px 0px;
+.nav .logo {
+    width: 5%;
+    height: 5%;
     position: relative;
-    right: 600px; 
-    font-size: 25px;   
+    right: 440px;
+    bottom: 13px;
+    border-radius: 50%;
+    border-color: black;
 }
 
 ul {
     float: right;
-    list-style: none;
+    font-weight: bold;
     font-size: 20px;
+    font-style: bold;
 }
 
 ul li {
@@ -82,18 +33,94 @@ ul li {
     float: left;
 }
 
-ul li a{
-    display: block;
+ul li a {
+    display: inline-flex;
     color: #FFF;
     text-decoration: none;
-    padding: 0px 30px;
-    position: relative; 
+    position: relative;
+    top: 8px;
 }
 
-ul li a:hover{
+ul li a:hover {
     background-color: #e59226;
-    color: #070707;
+    color: white;
 }
 
-.jel{cursor:pointer;}
-.tren{cursor: pointer;}
+ul li .beda {
+    position: relative;
+    left: 65px;
+    display: inline-flex;
+    font-family: "Vivaldi";
+    color: #FFF;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: normal;
+}
+
+.beranda {
+    position: relative;
+    left: 730px;
+    color: #e59226;
+    text-decoration: underline;
+}
+
+.tips {
+    position: relative;
+    left: 760px;
+}
+
+.sejarah {
+    position: relative;
+    left: 790px;
+}
+
+.kontak {
+    position: relative;
+    left: 820px;
+}
+
+.block {
+    background-color: rgba(0, 0, 0, 0.500);
+    background-size: 100%;
+    padding: 50px;
+    position: relative;
+    top: 150px;
+}
+
+.block h1 {
+    color: white;
+    font-size: 65px;
+    font-family: 'Lucida Sans';
+    font-weight: lighter;
+    position: relative;
+    margin-left: 20px;
+    margin-bottom: 0%;
+    padding-left: 0%;
+
+}
+
+.block p {
+    color: white;
+    font-size: 20px;
+    font-family: 'PT Sans';
+    position: relative;
+    margin-left: 20px;
+    padding-left: 10px;
+    margin-right: 400px;
+}
+
+.block form input {
+    box-sizing: border-box;
+    position: relative;
+    left: 10px;
+    text-align: center;
+    background-color: #e59226;
+    border-radius: 20px;
+    border-style: inset;
+    width: 20%;
+    padding: 8px 10px;
+    margin: 20px;
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+}
