@@ -1,0 +1,156 @@
+body {
+    background-image: url("../img/latarBang.png");
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+
+}
+
+.navbar{
+    position: relative;
+    background-color: black;
+    width: 100%;
+    z-index: 99;
+}
+
+.navbar ul {
+    display: inline-flex;
+    margin: 10px;
+}
+
+.navbar ul li{
+    list-style: none ;
+    font-size: 30px;
+    font-weight: 50px;
+    color: #000000;
+    cursor: pointer;
+}
+
+.navbar ul li :hover{
+    color:white;
+
+}
+
+.navbar ul li a {
+    color: #e59226;
+}
+
+.navbar .beda{
+    position: relative;
+    left: 20px;
+    top: 20px;
+    color: white;
+    font-family: "Vivaldi";
+    text-decoration: none;
+}
+
+.navbar .detail{
+    position: relative;
+    left: 600px;
+    top: 10px;
+    font-size: 40px;
+}
+
+.kembali{
+    top: 850px;
+    left: 20px;
+    position: relative;
+    text-decoration: none;
+    color:white;
+    border: 2px solid transparent;
+    padding: 15px 15px;
+    border-color:  #e59226;
+    border-radius: 20px;
+    background-color: transparent;
+}
+.kembali:hover{
+    top: 845px;
+    transition: top .7s;
+}
+
+.logo img{
+    width: 75px;
+    margin-top: -5px ;
+    margin-left: 10px;
+    border-color: black;
+    border-radius: 50%;
+}
+
+.h_satu{
+    font-size: 20px;
+    width: 40%;
+    height: 40%;
+    position: relative;
+    left: 400px;
+    word-spacing: 6px;
+    text-align: center;
+    top: 30px;
+    color: white;
+    bottom: 700px;
+}
+
+
+.cont_kiri{
+    font-size: 20px;
+    position: relative;
+    width: 35%;
+    height: 50%;
+    position: relative;
+    word-spacing: 5px;
+    text-align: center;
+    top: 100px;
+    color: white;
+}
+
+
+.img1{
+    width: 65%;
+    height: 60%;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+.tengah {
+    font-size: 22px;
+    text-align: center;
+    position: relative;
+    border-spacing: 2px;
+    width: 40%;
+    height: 30%;
+    left: 405px;
+    bottom: 520px;
+    color: white;
+}
+
+.cont_kanan{
+    font-size: 20px;
+    width: 35%;
+    height: 50%;
+    position: relative;
+    word-spacing: 1px;
+    text-align: center;
+    right: -875px;
+    bottom: 230px;
+    color: white;
+}
+
+.img2{
+    width: 65%;
+    height: 40%;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+h1 {
+    color:#e59226;
+    text-align: center;
+    font-family: "Playbill";
+    font-size: 100px;
+    letter-spacing: 2px;
+    position: relative;
+    top: 40px;
+}
