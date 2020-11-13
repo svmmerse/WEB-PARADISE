@@ -13,7 +13,6 @@ body {
     position: relative;
     background-color: black;
     width: 100%;
-    z-index: 99;
 }
 
 .navbar ul {
@@ -64,7 +63,7 @@ body {
     padding: 15px 15px;
     border-color:  #e59226;
     border-radius: 20px;
-    background-color: transparent;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 .kembali:hover{
     top: 845px;
@@ -81,7 +80,7 @@ body {
 
 .h_satu{
     font-size: 20px;
-    width: 40%;
+    width: 44%;
     height: 40%;
     position: relative;
     left: 400px;
@@ -119,8 +118,8 @@ body {
     border-spacing: 2px;
     width: 40%;
     height: 30%;
-    left: 405px;
-    bottom: 520px;
+    left: 400px;
+    bottom: 550px;
     color: white;
 }
 
@@ -131,7 +130,7 @@ body {
     position: relative;
     word-spacing: 1px;
     text-align: center;
-    right: -880px;
+    right: -860px;
     bottom: 218px;
     color: white;
 }
@@ -151,4 +150,8 @@ h1 {
     letter-spacing: 2px;
     position: relative;
     top: 40px;
+}
+
+p{
+    font-family: "PT Sans";
 }

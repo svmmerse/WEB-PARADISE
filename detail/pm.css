@@ -7,14 +7,12 @@ body {
 .container {
     width: 100%;
     height: 100%;
-
 }
 
 .navbar{
     position: relative;
     background-color: black;
     width: 100%;
-    z-index: 99;
 }
 
 .navbar ul {
@@ -57,7 +55,7 @@ body {
 
 .kembali{
     top: 850px;
-    left: 20px;
+    left: 15px;
     position: relative;
     text-decoration: none;
     color:white;
@@ -65,7 +63,7 @@ body {
     padding: 15px 15px;
     border-color:  #e59226;
     border-radius: 20px;
-    background-color: transparent;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 .kembali:hover{
     top: 845px;
@@ -109,7 +107,7 @@ body {
 
 .img1{
     width: 65%;
-    height: 60%;
+    height: 200px;
     padding: 5px;
     border-radius: 20px;
 }
@@ -121,8 +119,8 @@ body {
     border-spacing: 2px;
     width: 40%;
     height: 30%;
-    left: 405px;
-    bottom: 520px;
+    left: 400px;
+    bottom: 560px;
     color: white;
 }
 
@@ -133,14 +131,14 @@ body {
     position: relative;
     word-spacing: 1px;
     text-align: center;
-    right: -880px;
-    bottom: 218px;
+    right: -860px;
+    bottom: 220px;
     color: white;
 }
 
 .img2{
     width: 65%;
-    height: 40%;
+    height: 200px;
     padding: 5px;
     border-radius: 20px;
 }
@@ -153,4 +151,8 @@ h1 {
     letter-spacing: 2px;
     position: relative;
     top: 40px;
+}
+
+p{
+    font-family: "PT Sans";
 }

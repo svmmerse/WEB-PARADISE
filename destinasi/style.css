@@ -1,19 +1,20 @@
 body {
-    background: url(../img/Destinasibg.png);
+    background: url("../img/Destinasibg.png");
     background-size: 100%;
 }
 
 h1 {
     color: white;
-    margin-top: 30px;
+    margin-top: 10px;
     margin-left: 280px;
-    font-size: 60;
+    font-size: 50;
+    font-family: 'Lucida Sans';
 }
 
 .box {background-color: #707070;
     position: relative;
     right: -730px;
-    bottom: 90px;
+    bottom: 85px;
     margin-right: 100px auto;
     border: 4px;
     width: 300px;
@@ -42,7 +43,9 @@ h1 {
 
 h2 {margin-left: 600px;
     color: #E59226;
-    font-size: 30;
+    font-size: 50;
+    font-family: 'Playbill';
+    margin-bottom: -10px;
 }
 
 .gambar1,.gambar2{position: relative;
@@ -66,6 +69,7 @@ p {margin-left: 600px;
     right: -400px;
     background-color: #E59226;
     color: white;
+    font-family: 'League Gothic';
     width: 250;
     height: 35;
     margin: 30;
@@ -77,7 +81,7 @@ p {margin-left: 600px;
     cursor: pointer;
 }
 
-.button {
+.button {font-family: 'League Gothic';
     margin-left: 180px;
 }
 
