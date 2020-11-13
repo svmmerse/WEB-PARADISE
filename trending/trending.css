@@ -29,16 +29,19 @@ border-bottom: #E59226;
 position: relative;
 top: -20px;
 right: -700px;
-font-size: 40px;}
+font-size: 40px;
+font-family: 'Lucida Sans';}
 
 h1{color: #E59226 ;
-    font-size: 60px;
+    font-size: 80px;
+    font-family: 'Playbill';
 }
 
 p{width: 500px;
 height: 200px;
 color: white;
 margin-top: -35px;
+font-family:'PT Sans'
 }
 
 .gambar1,.gambar2{border-radius: 30px;
@@ -61,3 +64,15 @@ width: 0px;}
     top: 600px;
 height: 0px;}
 
+.kembali{position: relative;
+    width: 150px;
+    text-decoration: none;
+    color:white;
+    border: 2px solid transparent;
+    padding: 15px 15px;
+    border-color:  #e59226;
+    border-radius: 20px;
+    background-color: transparent;
+    cursor: pointer;
+    font-family: 'PT Sans';
+}
