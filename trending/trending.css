@@ -68,11 +68,12 @@ height: 0px;}
     width: 150px;
     text-decoration: none;
     color:white;
-    border: 2px solid transparent;
+    border: 3px solid transparent;
     padding: 15px 15px;
     border-color:  #e59226;
     border-radius: 20px;
     background-color: transparent;
     cursor: pointer;
     font-family: 'PT Sans';
+    background-color: black;
 }
