@@ -29,6 +29,7 @@ body {
     font-weight: bold;
 }
 
+<<<<<<< HEAD
 .trending {
     color: #E59226;
     border-bottom: #E59226;
@@ -41,16 +42,35 @@ body {
 
 h1 {
     color: #E59226;
+=======
+.trending{color: #E59226;
+border-bottom: #E59226;
+position: relative;
+top: -20px;
+right: -700px;
+font-size: 40px;
+font-family: 'Lucida Sans';}
+
+h1{color: #E59226 ;
+>>>>>>> 1fdc1dc1423113391eba2ad050d47efebc7692bb
     font-size: 80px;
     font-family: 'Playbill';
 }
 
+<<<<<<< HEAD
 p {
     width: 500px;
     height: 200px;
     color: white;
     margin-top: -35px;
     font-family: 'PT Sans'
+=======
+p{width: 500px;
+height: 200px;
+color: white;
+margin-top: -35px;
+font-family:'PT Sans'
+>>>>>>> 1fdc1dc1423113391eba2ad050d47efebc7692bb
 }
 
 .gambar1,
@@ -103,4 +123,19 @@ p {
     font-family: 'PT Sans';
     background-color: rgba(0, 0, 0, 0.500);
 
+<<<<<<< HEAD
+=======
+.kembali{position: relative;
+    width: 150px;
+    text-decoration: none;
+    color:white;
+    border: 3px solid transparent;
+    padding: 15px 15px;
+    border-color:  #e59226;
+    border-radius: 20px;
+    background-color: transparent;
+    cursor: pointer;
+    font-family: 'PT Sans';
+    background-color: black;
+>>>>>>> 1fdc1dc1423113391eba2ad050d47efebc7692bb
 }
