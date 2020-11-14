@@ -1,5 +1,5 @@
 body {
-    background-image: url("../background.png");
+    background-image: url("img/background.png");
     background-size: 100%;
     margin: 0;
 }
@@ -9,6 +9,7 @@ body {
     background-color: #070707;
     width: 100%;
     height: 12%;
+    top: 0px;
 }
 
 .nav .logo {
@@ -56,17 +57,18 @@ ul li .beda {
 .beranda {
     position: relative;
     left: 730px;
+    color: #e59226;
+    text-decoration: underline;
 }
 
 .tips {
     position: relative;
     left: 760px;
 }
+
 .sejarah {
     position: relative;
     left: 790px;
-    color: #e59226;
-    text-decoration: underline;
 }
 
 .kontak {
@@ -74,52 +76,48 @@ ul li .beda {
     left: 820px;
 }
 
-.container {
-    background-color: rgba(0, 0, 0, 0.486);
-    width: 98vw;
-    height: 75vh;
+.block {
+    background-color: rgba(0, 0, 0, 0.500);
+    background-size: 100%;
+    padding: 50px;
     position: relative;
-    top: 100px;
+    top: 150px;
 }
 
-.barkanan {
-    width: 700px;
-    height: 75vh;
-}
-
-.tulisan {
+.block h1 {
     color: white;
-    font-size: 23px;
-    width: 600px;
-    height: 50vh;
-    padding: 15px;
+    font-size: 65px;
+    font-family: 'Lucida Sans';
+    font-weight: lighter;
     position: relative;
-    left: 650px;
-    bottom: 450px;
+    margin-left: 20px;
+    margin-bottom: 0%;
+    padding-left: 0%;
 
 }
 
-.img1 {
+.block p {
+    color: white;
+    font-size: 20px;
+    font-family: 'PT Sans';
     position: relative;
-    width: 250px;
-    height: 200px;
-    bottom: 150px;
-    left: 45px;
-
+    margin-left: 20px;
+    padding-left: 10px;
+    margin-right: 400px;
 }
 
-.img2 {
+.block form input {
+    box-sizing: border-box;
     position: relative;
-    width: 250px;
-    height: 200px;
-    left:400px;
-    bottom: 155px;
-}
-
-.img3 {
-    left: 50px;
-    top: 50px;
-    position: relative;
-    width: 350px;
-    height: 400px;
+    left: 10px;
+    text-align: center;
+    background-color: #e59226;
+    border-radius: 20px;
+    border-style: inset;
+    width: 20%;
+    padding: 8px 10px;
+    margin: 20px;
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
 }
