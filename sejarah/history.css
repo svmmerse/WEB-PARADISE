@@ -79,7 +79,7 @@ ul li .beda {
     width:100%;
     height: 75vh;
     position: relative;
-    top: 150px;
+    top: 130px;
 }
 
 .barkanan {
@@ -88,6 +88,7 @@ ul li .beda {
 }
 
 .tulisan {
+    font-family: "PT Sans";
     color: white;
     font-size: 23px;
     width: 600px;
@@ -95,7 +96,7 @@ ul li .beda {
     padding: 15px;
     position: relative;
     left: 650px;
-    bottom: 450px;
+    bottom: 485px;
 
 }
 
