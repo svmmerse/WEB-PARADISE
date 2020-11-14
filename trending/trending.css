@@ -1,21 +1,19 @@
 body {
-    background: url("../img/trendingbg.png");
-    margin: 0;
+    background: url(../img/trendingbg.png);
+    margin: 0px;
 }
 
 .navbar {
     background-color: black;
     width: 100%;
-    height: 12%;
+    height: 11%;
 }
 
 .logo {
-    position: relative;
-    top: 5px;
     border-radius: 50%;
     margin-left: 50px;
-
-
+    position: relative;
+    top: 5px;
 }
 
 .tulisan {
@@ -29,6 +27,7 @@ body {
     font-weight: bold;
 }
 
+<<<<<<< HEAD
     .trending {
         color: #E59226;
         border-bottom: #E59226;
@@ -104,3 +103,59 @@ body {
         font-family: 'PT Sans';
         background-color: rgba(0, 0, 0, 0.500);
     }
+=======
+.trending{color: #E59226;
+border-bottom: #E59226;
+position: relative;
+top: -20px;
+right: -700px;
+font-size: 40px;
+font-family: 'Lucida Sans';}
+
+h1{color: #E59226 ;
+    font-size: 80px;
+    font-family: 'Playbill';
+}
+
+p{width: 500px;
+height: 200px;
+color: white;
+margin-top: -35px;
+font-family:'PT Sans'
+}
+
+.gambar1,.gambar2{border-radius: 30px;
+position: relative;
+top: -90px;}
+
+.kiri{position: relative;
+    right: 400px;
+height: 0px;}
+
+.kanan{position: relative;
+    right: -175px;
+height: 0px;
+width: 0px;}
+
+.isi{position: relative; }
+
+.satu,.dua{height: 0px;}
+.dua{position: relative;
+    top: 600px;
+height: 0px;}
+
+.kembali{position: relative;
+    width: 150px;
+    text-decoration: none;
+    font-size: 20px;
+    color:white;
+    border: 3px solid transparent;
+    padding: 15px 15px;
+    border-color:  #e59226;
+    border-radius: 20px;
+    background-color: transparent;
+    cursor: pointer;
+    font-family: 'PT Sans';
+    background-color: rgba(0, 0, 0, 0.500);
+}
+>>>>>>> ec3e2811e7aab163cb7075c69018af3f02e05908
