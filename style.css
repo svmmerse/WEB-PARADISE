@@ -1,124 +1,86 @@
-
 body {
-    background-image: url("img/background.png");
-    background-size: 100%;
+    font-family: sans-serif;
     margin: 0;
+    padding: 0;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-family: 'PT Sans';
+    text-align: center;
+    height: 30px;
+    font-size: 35px;
+    color : #f5dfdf;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.border {
+    border-style: unset;
+    border-radius: 5px;
 }
 
 .bar {
-    position: absolute;
-    background-color: #070707;
-    width: 100%;
-    height: 12%;
-    top: 0px;
+    padding: 10px 25px 25px 20px;
+    margin-top: 130px;
 }
 
-.nav .logo {
-    width: 5%;
-    height: 5%;
-    position: relative;
-    right: 440px;
-    bottom: 13px;
-    border-radius: 50%;
-    border-color: black;
+.input {
+    width: 300px;
+    padding: 5px;
+    height: 30px;
+    margin: 15px;
+    box-shadow: 0 0 10px 0 rgb(226, 226, 226);  
 }
 
-ul {
-    font-weight: bold;
-    font-size: 20px;
-    font-style: bold;
-}
-
-ul li {
-    text-align: center;
-    float: left;
-}
-
-ul li a {
-    display: inline;
-    color: #FFF;
-    text-decoration: none;
-    position: relative;
-    top: 8px;
-}
-
-ul li a:hover {
-    color: white;
-}
-
-ul li .beda {
-    position: relative;
-    left: 80px;
-    font-family: "Vivaldi";
-    color: #FFF;
-    text-decoration: none;
-    font-size: 25px;
-}
-
-.beranda {
-    position: relative;
-    left: 730px;
-    color: #e59226;
-    text-decoration: underline;
-}
-
-.tips {
-    position: relative;
-    left: 760px;
-}
-
-.sejarah {
-    position: relative;
-    left: 790px;
-}
-
-.kontak {
-    position: relative;
-    left: 820px;
-}
-
-.block {
-    background-color: rgba(0, 0, 0, 0.500);
-    background-size: 100%;
-    padding: 50px;
-    position: relative;
-    top: 150px;
-}
-
-.block h1 {
-    color: white;
-    font-size: 65px;
-    font-family: 'Lucida Sans';
-    font-weight: lighter;
-    position: relative;
-    margin-left: 20px;
-    margin-bottom: 0%;
-    padding-left: 0%;
-
-}
-
-.block p {
-    color: white;
-    font-size: 20px;
-    font-family: 'PT Sans';
-    position: relative;
-    margin-left: 20px;
-    padding-left: 10px;
-    margin-right: 400px;
-}
-
-.block form input {
-    box-sizing: border-box;
-    position: relative;
-    left: 10px;
-    text-align: center;
-    background-color: #e59226;
-    border-radius: 20px;
-    border-style: inset;
-    width: 20%;
-    padding: 8px 10px;
-    margin: 20px;
-    color: white;
-    font-size: 25px;
+.button {
     cursor: pointer;
+    display: flex;
+    flex-flow: row wrap;
+    border-style: none;
+    width: 200px;
+    height: 20px;
+    margin-left: 45px;
+    padding: 35px;
+    padding-top: 10px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.background {
+    position: absolute;
+    top: 0px;
+    z-index: -1;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("gambar.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.Backwhite {
+    background-color: white;
+}
+
+.Backgreen {
+    background-color: green;
+}
+
+.white {
+    color: white;
+    font-size: large;
+    font-weight: lighter; 
+}
+
+.red {
+    color: rgb(230, 16, 58);
+    font-family: Cambria;
+    font-size: 20px;
+
 }
