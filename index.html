@@ -1,33 +1,40 @@
 <!DOCTYPE html>
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <link rel="icon" type="image/png" href="img/logo.png">
-    <title>Menu Utama</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta name="viewport" content="width=device-widht , initial-scale=1" charset="UTF-8">
+    <title>Daftar Hadir Web</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="java script/jquery.js"></script>
+    <script type="text/javascript" src="java script/script.js"></script>
+
 </head>
-
 <body>
-    <div class="bar">
-        <ul class="nav">
-            <img class="logo" src="img/logo.png">
-            <li><a class="beda" href="menu utama/index.html"> Banyuwangi Paradise </a></li>
-            <li><a class="beranda" href="menu utama/index.html"> Beranda </a></li>
-            <li><a class="tips" href="tips/tips.html"> Tips </a></li>
-            <li><a class="sejarah" href="sejarah/sejarah.html"> Sejarah </a></li>
-            <li><a class="kontak" href="kontak/kontak.html"> Kontak </a></li>
-        </ul>
+
+    <img src="img/gambar.jpg" class="background">
+
+    <div class="container">
+
+        <div class="bar border Backgreen">
+            <form method="POST">
+                <h1>Daftar Hadir</h1>
+
+                <label for="namalengkap" class="white">Nama Lengkap</label> <br>
+                <input type="text" id="nama_lengkap" class="border Backwhite red" placeholder="Nama lengkap"> <br>
+                
+                <label for="email" class="white">Email</label> <br>
+                <input type="text" id="email" class="border Backwhite red" placeholder="Email" > <br>
+                
+                <label for="password" class="white">Password</label> <br>
+                <input type="password" id="password" class="border Backwhite red" placeholder="Password" > <br> 
+                
+                <input type="checkbox" id="checkbox" style="color: white;"> show password <br>
+    
+                <input type="button"  onclick="document.location='menu utama/index.html'" class="button red submit"  value="Masuk Beranda"> <br>
+
+            </form>
+        </div>
     </div>
 
-    <div class="block">
-        <h1>Banyuwangi Kota Pariwisata</h1>
-        <p> Merupakan sebuah kota kecil di ujung jawa timur yang hampir tiap tahun ramai
-            akan pengunjung yang ingin menikmati alam indahnya.
-        </p>
-        <br>
-        <form>
-            <a href="destinasi/destinasi1.html"><input class="jel" type="button" value="Jelajah"></a>
-            <a href="trending/trending.html"><input class="tren" type="button" value="Trending"><a/>
-        </form>
-    </div>
+
 </body>
 </html>
